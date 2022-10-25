@@ -8,7 +8,6 @@ const {
   DB_USER, DB_PASSWORD, DB_HOST,DB
 } = process.env;
 
-console.log({DB_USER}, {DB_PASSWORD}, {DB_HOST},{DB})
 
 // Syncing all the models at once.
 conn.sync({ force: false }).then(() => {
