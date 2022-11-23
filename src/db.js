@@ -37,13 +37,14 @@ const { Category, Product, Examples, Customer } = sequelize.models;
 // Aca vendrian las relaciones
 // Product.hasMany(Reviews);
 // Service.belongsToMany(Category,{through:"service_category"});
-// Category.belongsToMany(Service,{through:"service_category"})
+// Category.belongsToMany(Service,{through:"service_category"})   
 
 Category.hasMany(Product);
 Product.belongsTo(Category);
 
 Product.hasMany(Examples);
 Examples.belongsTo(Product);
+
 
 
 module.exports = {
