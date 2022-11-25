@@ -23,6 +23,10 @@ module.exports = (sequelize) => {
     color: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    order: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0,
     }
   } ,{timestamps:false});
 };
