@@ -10,7 +10,6 @@ const {
 //Angie
   // postgresql://postgres:1Dg8kln9uhwUW9CjGO1l@containers-us-west-111.railway.app:5809/railway
 //Juan
-  // postgresql://postgres:HCZiZmgbJHWfR0BPzsQ8@containers-us-west-42.railway.app:5572/railway
   // postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}
 const sequelize = new Sequelize(`postgresql://postgres:1Dg8kln9uhwUW9CjGO1l@containers-us-west-111.railway.app:5809/railway`, {
   logging: false, // set to console.log to see the raw SQL queries
