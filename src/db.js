@@ -8,10 +8,10 @@ const {
 
 //Datebase connection
 //Angie
-  // postgresql://postgres:1Dg8kln9uhwUW9CjGO1l@containers-us-west-111.railway.app:5809/railway
+  // postgresql://postgres:3vxpdaWQCVgEr1oJPgzT@containers-us-west-111.railway.app:5809/railway
 //Juan
   // postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}
-const sequelize = new Sequelize(`postgresql://postgres:1Dg8kln9uhwUW9CjGO1l@containers-us-west-111.railway.app:5809/railway`, {
+const sequelize = new Sequelize(`postgresql://postgres:3vxpdaWQCVgEr1oJPgzT@containers-us-west-111.railway.app:5809/railway`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });
