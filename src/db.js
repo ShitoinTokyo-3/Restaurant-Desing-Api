@@ -7,7 +7,7 @@ const {
   } = process.env;
 
 //Datebase connection
-//Angie
+//Angie Hola pues
   // postgresql://postgres:3vxpdaWQCVgEr1oJPgzT@containers-us-west-111.railway.app:5809/railway
 //Juan
   // postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}
